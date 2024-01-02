@@ -1,0 +1,44 @@
+// import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+
+class Main {
+  public static void main(String[] args) {
+
+    String FirstName = "John";
+    String LastName = "Doe";
+    int Age = 24;
+    int Amount = 175;
+    boolean ismarried = true;
+
+    double amount2 = 20;
+    String deposit = "Deposit";
+    String withdraw = "Withdraw";
+    int number = 5;
+    int length = LastName.length();
+
+    String fullName = FirstName + " " + LastName;
+
+    System.out.println(FirstName);
+    System.out.println(LastName);
+    System.out.println(Age);
+    System.out.println(Amount);
+    System.out.println(ismarried);
+    System.out.println(amount2);
+    System.out.println(deposit);
+    System.out.println(withdraw);
+
+    System.out.println("the amount is = " + amount2);
+    System.out.println("Would you like to Deposit or Withdraw the amount?" + deposit + " or " + withdraw);
+
+    System.out.println(number + number);
+
+    System.out.println("My Name is " + "   " + FirstName + "    " + "and my last name is " + length + "  ");
+
+  }
+
+  // @Test
+  // void addition() {
+  // assertEquals(2, 1 + 1);
+  // }
+}
